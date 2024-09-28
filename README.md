@@ -10,3 +10,6 @@ Assignment framework for CS283 Game Programming
 
 ### Assignment 1
 [GIF](https://github.com/user-attachments/assets/fb9bdf9b-b9d3-40f4-8c6f-35888fed36cb)
+
+## Assets used
+<img width="1200" alt="Screenshot 2024-09-28 011304" src="https://github.com/user-attachments/assets/8d0a6507-9433-47c4-9165-09d04cc92d16">
