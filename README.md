@@ -1,10 +1,10 @@
 # cs283-f24-assignments
 Assignment framework for CS283 Game Programming
 ### Assignment 5
-# Rigid Body Camera
+# Spring Follow Camera
 https://github.com/user-attachments/assets/c24a0632-6f8d-4f96-b801-7e35ddd46f73
 
-# Spring Follow Camera
+# Rigid Body Camera
 https://github.com/user-attachments/assets/fbddf5f9-7292-42cb-930d-99bc5d13ab66
 
 ### Assignment 4
