@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Tour : MonoBehaviour
 {
-    public float duration = 3.0f;
     public Transform[] POI;
     private int current = 0;
     public Transform startPos;
     public Transform endPos;
+    private float u;
+    public float duration = 3.0f;
+
+    //time instance variable
 
     public Color startCol;
     public Color endCol;
@@ -24,22 +27,34 @@ public class Tour : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.N))
         {
-            startPos = Camera.main.transform;  // The current camera position and rotation
+            u = 0;
+            //create a copy of the camera's current position
+            startPos = new GameObject().transform;
+            startPos.position = Camera.main.transform.position;
+            startPos.rotation = Camera.main.transform.rotation;
+
+            // The current camera position and rotation
             current = (current + 1) % POI.Length;  // Cycle through POIs
             endPos = POI[current];
         }
         if (startPos != null && endPos != null)
         {
-            float u = Mathf.Repeat(Time.realtimeSinceStartup, duration) / duration;
+           
+            //lerp from 0 - 1
+            u += Time.deltaTime/ duration;
+            u = Mathf.Clamp01(u);
+            Debug.Log("u" + u);
+            //Debug.Log("time" + time);
+
+            //time += Time.deltaTime;
             Camera.main.transform.position = Vector3.Lerp(startPos.position, endPos.position, u);
             Camera.main.transform.rotation = Quaternion.Slerp(startPos.rotation, endPos.rotation, u);
-
-            Renderer[] renderers = GetComponentsInChildren<Renderer>();
-            foreach (Renderer r in renderers)
+            if (u >= 1.0f)
             {
-                r.material.color = Color.Lerp(startCol, endCol, u);
+                startPos = null;
+                endPos = null;
             }
+
         }
-               
     }
 }
