@@ -49,19 +49,19 @@ public class FlyCamera : MonoBehaviour
         }
         void LookDown()
         {
-            // Rotate around the X-axis (local) in a positive direction to look down
+            // Rotate around the X-axis 
             transform.Rotate(Vector3.right * rotationSpeed);
         }
 
         void LookLeft()
         {
-            // Rotate around the Y-axis (global) in a negative direction to look left
+            // Rotate around the Y-axis 
             transform.Rotate(Vector3.up * -rotationSpeed, Space.World);
         }
 
         void LookRight()
         {
-            // Rotate around the Y-axis (global) in a positive direction to look right
+            // Rotate around the Y-axis 
             transform.Rotate(Vector3.up * rotationSpeed, Space.World);
         }
     }
