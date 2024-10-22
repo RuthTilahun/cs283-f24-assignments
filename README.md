@@ -4,7 +4,7 @@ Assignment framework for CS283 Game Programming
 # Spline with degree-1 polynomial
 https://github.com/user-attachments/assets/a9ab48b2-60f5-403f-bd6f-af6f7263a856
 
-Spline with degree-3 polynomial
+# Spline with degree-3 polynomial
 https://github.com/user-attachments/assets/13203e04-3d62-46b8-875f-d2e4dfd0c09c
 
 ### Assignment 5
