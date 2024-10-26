@@ -1,5 +1,14 @@
 # cs283-f24-assignments
 Assignment framework for CS283 Game Programming
+### Assignment 7
+https://github.com/user-attachments/assets/3182794b-7b37-4ac6-93d4-916d7ad275d0
+### Assignment 6
+# Spline with degree-1 polynomial
+https://github.com/user-attachments/assets/a9ab48b2-60f5-403f-bd6f-af6f7263a856
+
+# Spline with degree-3 polynomial
+https://github.com/user-attachments/assets/13203e04-3d62-46b8-875f-d2e4dfd0c09c
+
 ### Assignment 5
 # Spring Follow Camera
 https://github.com/user-attachments/assets/c24a0632-6f8d-4f96-b801-7e35ddd46f73
