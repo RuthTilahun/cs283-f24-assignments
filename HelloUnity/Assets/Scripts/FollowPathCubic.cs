@@ -59,19 +59,18 @@ public class FollowPathCubic : MonoBehaviour
                 float u = timer / duration;
                 Vector3 position;
 
-                // Choose the method for calculating Bezier curve
                 if (useDeCasteljau)
                 {
-                    // Use De Casteljau's algorithm with calculated positions
+                    // Use De Casteljau's algorithm 
                     position = DeCasteljau(b0, b1, b2, b3, u);
                 }
                 else
                 {
-                    // Use the Bezier polynomial formula with calculated positions
+                    // Use the Bezier polynomial formula 
                     position = Bezier(b0, b1, b2, b3, u);
                 }
 
-                // Calculate the direction of movement and update the rotation
+                // update the rotation
                 Vector3 direction = (position - transform.position).normalized;
                 transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), u);
 
