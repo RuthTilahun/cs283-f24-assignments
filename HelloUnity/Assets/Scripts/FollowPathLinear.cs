@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FoolowPathLinear : MonoBehaviour
+public class FollowPathLinear : MonoBehaviour
 {
     public Transform[] POI;
     private int current = -1;
