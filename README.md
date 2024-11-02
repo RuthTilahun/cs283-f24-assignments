@@ -1,7 +1,11 @@
 # cs283-f24-assignments
-Assignment framework for CS283 Game Programming
+Assignment Framework for CS283 Game Programming
+### Assignment 8
+https://github.com/user-attachments/assets/df0b2b28-67c7-4d9f-bc64-f2956668cb0c
+
 ### Assignment 7
 https://github.com/user-attachments/assets/3182794b-7b37-4ac6-93d4-916d7ad275d0
+
 ### Assignment 6
 # Spline with degree-1 polynomial
 https://github.com/user-attachments/assets/a9ab48b2-60f5-403f-bd6f-af6f7263a856
