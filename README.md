@@ -1,7 +1,14 @@
 # cs283-f24-assignments
-Assignment framework for CS283 Game Programming
-### Assignment 7
+Assignment Framework for CS283 Game Programming
+### Assignment 9: Wander
+https://github.com/user-attachments/assets/c2295ed3-d5f4-408c-a1ab-9ecd57cac73c
+
+### Assignment 8: Collection Game
+https://github.com/user-attachments/assets/df0b2b28-67c7-4d9f-bc64-f2956668cb0c
+
+### Assignment 7: Motion and Collision
 https://github.com/user-attachments/assets/3182794b-7b37-4ac6-93d4-916d7ad275d0
+
 ### Assignment 6
 # Spline with degree-1 polynomial
 https://github.com/user-attachments/assets/a9ab48b2-60f5-403f-bd6f-af6f7263a856
