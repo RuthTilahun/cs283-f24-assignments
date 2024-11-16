@@ -1,5 +1,13 @@
 # cs283-f24-assignments
 Assignment Framework for CS283 Game Programming
+
+### Assignment 10: Behavior
+# NPC1 attacks Player
+https://github.com/user-attachments/assets/c68e0bcb-b599-4f4a-846e-24ae90360207
+
+# NPC2 Defends Player(attacks NPC1)
+https://github.com/user-attachments/assets/e75dccb1-aae5-4209-9169-669867305282
+
 ### Assignment 9: Wander
 https://github.com/user-attachments/assets/c2295ed3-d5f4-408c-a1ab-9ecd57cac73c
 
