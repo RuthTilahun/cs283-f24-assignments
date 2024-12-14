@@ -4,16 +4,25 @@ Here’s a sample structure for your **README.md** file based on your game descr
 
 ## **Project: Maze of Redemption**
 <img width="401" alt="RepImage" src="https://github.com/user-attachments/assets/db9691a0-5946-4c96-ba59-612fb139f150" />
+
 ### **Description**
 *Maze of Redemption* is a 3D puzzle-adventure game where the player navigates a maze to find hidden puzzle pieces. Each collected piece reveals a part of the maze map, guiding the player closer to the end. Once all the pieces are collected, the exit gate opens, marking the completion of the adventure.
+
 ### **Videos and Screenshots**
 https://github.com/user-attachments/assets/325f1c85-600f-45c6-a3fa-acb80881b84c
+
 https://github.com/user-attachments/assets/28b6f204-a627-4ab9-8887-8e3a1f434be2
+
 https://github.com/user-attachments/assets/893f6158-30e0-4aa1-8db9-39667531ee8e
+
 ![Screenshot 2024-12-13 221648](https://github.com/user-attachments/assets/c4b5254b-574a-4dbd-ad98-da52c0b1b89d)
+
 ![Screenshot 2024-12-13 221714](https://github.com/user-attachments/assets/77e422c7-627c-4b08-8bc0-ebdc4b8c8292)
+
 ![Screenshot 2024-12-13 222112](https://github.com/user-attachments/assets/f34fb7e4-3661-42ab-bb52-73a6db19ddff)
+
 ![Screenshot 2024-12-13 225240](https://github.com/user-attachments/assets/a3e25def-aa9c-4d19-bfad-dbd447cb5455)
+
 ![Screenshot 2024-12-13 225401](https://github.com/user-attachments/assets/d337b89a-e346-48b0-bca3-758036d12c0f)
 
 ### **How to Play**
