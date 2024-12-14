@@ -1,6 +1,4 @@
 # cs283-f24-assignments
-Assignment Framework for CS283 Game Programming
-Here’s a sample structure for your **README.md** file based on your game description and implementation requirements. If you provide your code, I can refine this further.
 
 ## **Project: Maze of Redemption**
 <img width="401" alt="RepImage" src="https://github.com/user-attachments/assets/db9691a0-5946-4c96-ba59-612fb139f150" />
