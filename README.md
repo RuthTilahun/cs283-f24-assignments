@@ -1,5 +1,82 @@
 # cs283-f24-assignments
 Assignment Framework for CS283 Game Programming
+Here’s a sample structure for your **README.md** file based on your game description and implementation requirements. If you provide your code, I can refine this further.
+
+## **Project: Maze of Redemption**
+<img width="401" alt="RepImage" src="https://github.com/user-attachments/assets/db9691a0-5946-4c96-ba59-612fb139f150" />
+### **Description**
+*Maze of Redemption* is a 3D puzzle-adventure game where the player navigates a maze to find hidden puzzle pieces. Each collected piece reveals a part of the maze map, guiding the player closer to the end. Once all the pieces are collected, the exit gate opens, marking the completion of the adventure.
+### **Videos and Screenshots**
+https://github.com/user-attachments/assets/325f1c85-600f-45c6-a3fa-acb80881b84c
+https://github.com/user-attachments/assets/28b6f204-a627-4ab9-8887-8e3a1f434be2
+https://github.com/user-attachments/assets/893f6158-30e0-4aa1-8db9-39667531ee8e
+![Screenshot 2024-12-13 221648](https://github.com/user-attachments/assets/c4b5254b-574a-4dbd-ad98-da52c0b1b89d)
+![Screenshot 2024-12-13 221714](https://github.com/user-attachments/assets/77e422c7-627c-4b08-8bc0-ebdc4b8c8292)
+![Screenshot 2024-12-13 222112](https://github.com/user-attachments/assets/f34fb7e4-3661-42ab-bb52-73a6db19ddff)
+![Screenshot 2024-12-13 225240](https://github.com/user-attachments/assets/a3e25def-aa9c-4d19-bfad-dbd447cb5455)
+![Screenshot 2024-12-13 225401](https://github.com/user-attachments/assets/d337b89a-e346-48b0-bca3-758036d12c0f)
+
+### **How to Play**
+1. **Objective:**
+   - Navigate the maze to find all hidden puzzle pieces.
+   - Each piece reveals part of the maze map to help you navigate.
+   - Collect all pieces to open the gate and complete the maze.
+2. **Controls:**
+   - **W/A/S/D**: Move forward, left, backward, and right.
+   - **Mouse**: Look around.
+   - **Space**: Jump (if enabled).
+   - **O**: Interact with objects (e.g., open chests)
+3. **Hints:**
+   - Look for treasure chests.
+   - Use the map to orient yourself in the maze.
+
+### **Building and Running in Unity**
+   - Open the project in Unity.
+   - Go to **File > Build Settings**.
+   - Add the "Project" scene in the build.
+   - Select your target platform (e.g., Windows, Mac, WebGL).
+   - Click **Build**, and choose a location to save the build.
+   - Navigate to the built game folder and open the .exe file(Windows) or .app file(Mac).
+
+### **Implemented Features**
+#### **1. Puzzle Piece Collection**
+   - **Description:** Collect puzzle pieces to reveal parts of the maze map.
+   - **Script:** `PuzzlePiece.cs`
+     - Detects player proximity and interaction with puzzle pieces.
+     - Triggers map updates when pieces are collected.
+
+#### **2. Gate Mechanism**
+   - **Description:** The exit gate opens when all puzzle pieces are collected.
+   - **Script:** `GateController.cs`
+     - Rotates the gate by 180 degrees when triggered.
+     - Displays a UI message to inform the player of progress.
+
+#### **3. Map Reveal System**
+   - **Description:** Reveals hidden parts of the map as pieces are collected.
+   - **Script:** `MapCanvasController.cs` and `MapUpdater.cs`
+     - Handles the visibility of map overlays.
+     - Updates the map dynamically when puzzle pieces are discovered.
+
+#### **4. NPC Follower**
+   - **Description:** An NPC follows the player at a fixed distance and catches up if the player stops.
+   - **Script:** `GiantBehavior.cs`
+     - Uses Unity’s NavMesh system for obstacle-aware movement.
+     - Smoothly rotates the NPC to face the player.
+
+#### **5. Welcome Page**
+   - **Description:** A minimalist welcome page with a "Start" button to begin the game.
+     - Handles the display and hiding of the welcome UI.
+     - Transitions into gameplay when the button is clicked.
+
+#### **6. Button Interaction**
+   - **Description:** Buttons enable various interactions in the game, such as starting gameplay or toggling the map.
+   -  **Script:** `ButtonBehavior.cs`
+      - Manages the interaction of UI buttons.
+      - Includes functionality for the "Start" button on the welcome page.
+
+### **Future Enhancements**
+- Add a timer or scoring system to challenge players.
+- Include different maze levels with increasing complexity.
 
 ## Assignment 10: Behavior
 ### NPC1 attacks Player
