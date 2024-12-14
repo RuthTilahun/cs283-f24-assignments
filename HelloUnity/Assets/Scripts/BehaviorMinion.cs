@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using BTAI;
-using UnityEditor.Build;
 using System;
 
 public class BehaviorMinion : MonoBehaviour
