@@ -1,4 +1,4 @@
-## **Project: Maze of Redemption**
+## **Project: 3D Game - Maze of Redemption**
 <img width="401" alt="RepImage" src="https://github.com/user-attachments/assets/db9691a0-5946-4c96-ba59-612fb139f150" />
 
 ### **Description**
